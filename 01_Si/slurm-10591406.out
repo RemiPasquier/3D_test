@@ -1,0 +1,120 @@
+cpu-bind=MASK - n2cn0513, task  0  0 [1217854]: mask |BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB|  set
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) pc2fs   2) slurm/23.11.5-1   3) DefaultModules
+cpu-bind=MASK - n2cn0513, task  0  0 [1218271]: mask |BBBBBBBB|BBBBBBBB||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0513, task  1  1 [1218272]: mask |--------|--------||BBBBBBBB|BBBBBBBB||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0513, task  2  2 [1218273]: mask |--------|--------||--------|--------||BBBBBBBB|BBBBBBBB||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0513, task  3  3 [1218274]: mask |--------|--------||--------|--------||--------|--------||BBBBBBBB|BBBBBBBB||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0513, task  4  4 [1218275]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||BBBBBBBB|BBBBBBBB||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0513, task  5  5 [1218276]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||BBBBBBBB|BBBBBBBB||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0513, task  6  6 [1218277]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||BBBBBBBB|BBBBBBBB||--------|--------|  set
+cpu-bind=MASK - n2cn0513, task  7  7 [1218278]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||BBBBBBBB|BBBBBBBB|  set
+2024-08-13 17:54:06.515234: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-13 17:54:06.515234: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-13 17:54:06.515237: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-13 17:54:06.515241: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-13 17:54:06.515242: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-13 17:54:06.515215: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-13 17:54:06.515227: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-13 17:54:06.515245: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-13 17:54:08.103532: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-13 17:54:08.103571: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-13 17:54:08.103538: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-13 17:54:08.103578: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-13 17:54:08.103541: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-13 17:54:08.103578: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-13 17:54:08.103539: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-13 17:54:08.103572: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-13 17:54:08.103534: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-13 17:54:08.103579: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-13 17:54:08.103531: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-13 17:54:08.103581: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-13 17:54:08.103545: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-13 17:54:08.103596: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-13 17:54:08.103525: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-13 17:54:08.103571: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-13 17:54:08.107626: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-13 17:54:08.107625: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-13 17:54:08.107622: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-13 17:54:08.107617: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-13 17:54:08.107626: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-13 17:54:08.107630: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-13 17:54:08.107631: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-13 17:54:08.107661: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+[n2cn0513:1218276] MCW rank 5 bound to socket 1[core 80[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././B/././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0513:1218276] MCW rank 5 bound to socket 1[core 80[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././B/././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0513:1218274] MCW rank 3 bound to socket 0[core 48[hwt 0]]: [././././././././././././././././././././././././././././././././././././././././././././././././B/././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0513:1218277] MCW rank 6 bound to socket 1[core 96[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././B/././././././././././././././././././././././././././././././.]
+[n2cn0513:1218274] MCW rank 3 bound to socket 0[core 48[hwt 0]]: [././././././././././././././././././././././././././././././././././././././././././././././././B/././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0513:1218277] MCW rank 6 bound to socket 1[core 96[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././B/././././././././././././././././././././././././././././././.]
+[n2cn0513:1218272] MCW rank 1 bound to socket 0[core 16[hwt 0]]: [././././././././././././././././B/././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0513:1218272] MCW rank 1 bound to socket 0[core 16[hwt 0]]: [././././././././././././././././B/././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0513:1218273] MCW rank 2 bound to socket 0[core 32[hwt 0]]: [././././././././././././././././././././././././././././././././B/././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0513:1218278] MCW rank 7 bound to socket 1[core 112[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././././././././././././././././././B/././././././././././././././.]
+[n2cn0513:1218273] MCW rank 2 bound to socket 0[core 32[hwt 0]]: [././././././././././././././././././././././././././././././././B/././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0513:1218278] MCW rank 7 bound to socket 1[core 112[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././././././././././././././././././B/././././././././././././././.]
+[n2cn0513:1218271] MCW rank 0 bound to socket 0[core 0[hwt 0]]: [B/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0513:1218271] MCW rank 0 bound to socket 0[core 0[hwt 0]]: [B/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0513:1218275] MCW rank 4 bound to socket 1[core 64[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][B/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0513:1218275] MCW rank 4 bound to socket 1[core 64[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][B/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+slurmstepd: error: *** STEP 10591406.0 ON n2cn0513 CANCELLED AT 2024-08-13T18:04:11 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 10591406 ON n2cn0513 CANCELLED AT 2024-08-13T18:04:11 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.

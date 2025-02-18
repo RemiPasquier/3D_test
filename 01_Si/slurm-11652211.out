@@ -1,0 +1,335 @@
+cpu-bind=MASK - n2cn0722, task  0  0 [1824735]: mask |BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB|  set
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) pc2fs   2) slurm/23.11.5-1   3) DefaultModules
+cpu-bind=MASK - n2cn0722, task  0  0 [1825150]: mask |BBBBBBBB|BBBBBBBB||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0722, task  1  1 [1825151]: mask |--------|--------||BBBBBBBB|BBBBBBBB||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0722, task  2  2 [1825152]: mask |--------|--------||--------|--------||BBBBBBBB|BBBBBBBB||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0722, task  3  3 [1825153]: mask |--------|--------||--------|--------||--------|--------||BBBBBBBB|BBBBBBBB||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0722, task  4  4 [1825154]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||BBBBBBBB|BBBBBBBB||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0722, task  5  5 [1825155]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||BBBBBBBB|BBBBBBBB||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0722, task  6  6 [1825156]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||BBBBBBBB|BBBBBBBB||--------|--------|  set
+cpu-bind=MASK - n2cn0722, task  7  7 [1825157]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||BBBBBBBB|BBBBBBBB|  set
+2024-08-14 11:22:24.009523: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-14 11:22:24.009526: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-14 11:22:24.009504: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-14 11:22:24.009524: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-14 11:22:24.009507: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-14 11:22:24.009508: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-14 11:22:24.009519: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-14 11:22:24.009512: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-14 11:22:27.199240: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-14 11:22:27.199276: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-14 11:22:27.199262: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-14 11:22:27.199298: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-14 11:22:27.199256: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-14 11:22:27.199289: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-14 11:22:27.199276: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-14 11:22:27.199309: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-14 11:22:27.199277: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-14 11:22:27.199310: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-14 11:22:27.199272: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-14 11:22:27.199308: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-14 11:22:27.199281: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-14 11:22:27.199319: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-14 11:22:27.199286: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-14 11:22:27.199320: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-14 11:22:27.210791: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-14 11:22:27.210798: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-14 11:22:27.210811: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-14 11:22:27.210813: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-14 11:22:27.210831: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-14 11:22:27.210817: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-14 11:22:27.210814: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-14 11:22:27.210825: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+[n2cn0722:1825150] MCW rank 0 bound to socket 0[core 0[hwt 0]]: [B/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0722:1825150] MCW rank 0 bound to socket 0[core 0[hwt 0]]: [B/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0722:1825153] MCW rank 3 bound to socket 0[core 48[hwt 0]]: [././././././././././././././././././././././././././././././././././././././././././././././././B/././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0722:1825153] MCW rank 3 bound to socket 0[core 48[hwt 0]]: [././././././././././././././././././././././././././././././././././././././././././././././././B/././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0722:1825152] MCW rank 2 bound to socket 0[core 32[hwt 0]]: [././././././././././././././././././././././././././././././././B/././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0722:1825152] MCW rank 2 bound to socket 0[core 32[hwt 0]]: [././././././././././././././././././././././././././././././././B/././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0722:1825157] MCW rank 7 bound to socket 1[core 112[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././././././././././././././././././B/././././././././././././././.]
+[n2cn0722:1825157] MCW rank 7 bound to socket 1[core 112[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././././././././././././././././././B/././././././././././././././.]
+[n2cn0722:1825151] MCW rank 1 bound to socket 0[core 16[hwt 0]]: [././././././././././././././././B/././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0722:1825151] MCW rank 1 bound to socket 0[core 16[hwt 0]]: [././././././././././././././././B/././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0722:1825155] MCW rank 5 bound to socket 1[core 80[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././B/././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0722:1825155] MCW rank 5 bound to socket 1[core 80[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././B/././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0722:1825156] MCW rank 6 bound to socket 1[core 96[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././B/././././././././././././././././././././././././././././././.]
+[n2cn0722:1825156] MCW rank 6 bound to socket 1[core 96[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././B/././././././././././././././././././././././././././././././.]
+[n2cn0722:1825154] MCW rank 4 bound to socket 1[core 64[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][B/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0722:1825154] MCW rank 4 bound to socket 1[core 64[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][B/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0722:1825150:0:1825150] Caught signal 8 (Floating point exception: floating-point invalid operation)
+[n2cn0722:1825155:0:1825155] Caught signal 8 (Floating point exception: floating-point invalid operation)
+[n2cn0722:1825156:0:1825156] Caught signal 8 (Floating point exception: floating-point invalid operation)
+[n2cn0722:1825157:0:1825157] Caught signal 8 (Floating point exception: floating-point invalid operation)
+==== backtrace (tid:1825150) ====
+ 0 0x0000000000012cf0 __funlockfile()  :0
+ 1 0x000000000215441c __kpoint_coulomb_2c_MOD_build_2c_coulomb_matrix_kp_small_cell()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/kpoint_coulomb_2c.F90:808
+ 2 0x0000000002443f7d __gw_small_cell_full_kp_MOD_compute_w_real_space()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/gw_small_cell_full_kp.F90:700
+ 3 0x0000000002443f7d compute_w_real_space()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:557
+ 4 0x0000000002449a7e __gw_small_cell_full_kp_MOD_gw_calc_small_cell_full_kp()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/gw_small_cell_full_kp.F90:93
+ 5 0x000000000204f295 __gw_main_MOD_gw()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/gw_main.F90:59
+ 6 0x000000000185d843 __post_scf_bandstructure_methods_MOD_post_scf_bandstructure()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/post_scf_bandstructure_methods.F90:55
+ 7 0x000000000104bf85 __qs_energy_utils_MOD_qs_energies_properties()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/qs_energy_utils.F90:205
+ 8 0x0000000000f8faaf __qs_energy_MOD_qs_energies()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/qs_energy.F90:145
+ 9 0x00000000010dd48b __qs_force_MOD_qs_calc_energy_force()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/qs_force.F90:115
+10 0x0000000000c0ede1 __force_env_methods_MOD_force_env_calc_energy_force()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/force_env_methods.F90:259
+11 0x00000000006a11e1 __cp2k_runs_MOD_cp2k_run()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/cp2k_runs.F90:359
+12 0x00000000006a2cf3 __cp2k_runs_MOD_run_input()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/cp2k_runs.F90:968
+13 0x0000000000697ad9 MAIN__()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/cp2k.F90:379
+14 0x0000000000697df5 main()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/cp2k.F90:44
+15 0x000000000003ad85 __libc_start_main()  ???:0
+16 0x00000000006956de _start()  ???:0
+=================================
+
+Program received signal SIGFPE: Floating-point exception - erroneous arithmetic operation.
+
+Backtrace for this error:
+==== backtrace (tid:1825156) ====
+ 0 0x0000000000012cf0 __funlockfile()  :0
+ 1 0x000000000215441c __kpoint_coulomb_2c_MOD_build_2c_coulomb_matrix_kp_small_cell()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/kpoint_coulomb_2c.F90:808
+ 2 0x0000000002443f7d __gw_small_cell_full_kp_MOD_compute_w_real_space()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/gw_small_cell_full_kp.F90:700
+ 3 0x0000000002443f7d compute_w_real_space()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:557
+ 4 0x0000000002449a7e __gw_small_cell_full_kp_MOD_gw_calc_small_cell_full_kp()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/gw_small_cell_full_kp.F90:93
+ 5 0x000000000204f295 __gw_main_MOD_gw()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/gw_main.F90:59
+ 6 0x000000000185d843 __post_scf_bandstructure_methods_MOD_post_scf_bandstructure()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/post_scf_bandstructure_methods.F90:55
+ 7 0x000000000104bf85 __qs_energy_utils_MOD_qs_energies_properties()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/qs_energy_utils.F90:205
+ 8 0x0000000000f8faaf __qs_energy_MOD_qs_energies()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/qs_energy.F90:145
+ 9 0x00000000010dd48b __qs_force_MOD_qs_calc_energy_force()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/qs_force.F90:115
+10 0x0000000000c0ede1 __force_env_methods_MOD_force_env_calc_energy_force()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/force_env_methods.F90:259
+11 0x00000000006a11e1 __cp2k_runs_MOD_cp2k_run()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/cp2k_runs.F90:359
+12 0x00000000006a2cf3 __cp2k_runs_MOD_run_input()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/cp2k_runs.F90:968
+13 0x0000000000697ad9 MAIN__()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/cp2k.F90:379
+14 0x0000000000697df5 main()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/cp2k.F90:44
+15 0x000000000003ad85 __libc_start_main()  ???:0
+16 0x00000000006956de _start()  ???:0
+=================================
+
+Program received signal SIGFPE: Floating-point exception - erroneous arithmetic operation.
+
+Backtrace for this error:
+==== backtrace (tid:1825155) ====
+ 0 0x0000000000012cf0 __funlockfile()  :0
+ 1 0x000000000215441c __kpoint_coulomb_2c_MOD_build_2c_coulomb_matrix_kp_small_cell()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/kpoint_coulomb_2c.F90:808
+ 2 0x0000000002443f7d __gw_small_cell_full_kp_MOD_compute_w_real_space()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/gw_small_cell_full_kp.F90:700
+ 3 0x0000000002443f7d compute_w_real_space()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:557
+ 4 0x0000000002449a7e __gw_small_cell_full_kp_MOD_gw_calc_small_cell_full_kp()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/gw_small_cell_full_kp.F90:93
+ 5 0x000000000204f295 __gw_main_MOD_gw()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/gw_main.F90:59
+ 6 0x000000000185d843 __post_scf_bandstructure_methods_MOD_post_scf_bandstructure()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/post_scf_bandstructure_methods.F90:55
+ 7 0x000000000104bf85 __qs_energy_utils_MOD_qs_energies_properties()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/qs_energy_utils.F90:205
+ 8 0x0000000000f8faaf __qs_energy_MOD_qs_energies()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/qs_energy.F90:145
+ 9 0x00000000010dd48b __qs_force_MOD_qs_calc_energy_force()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/qs_force.F90:115
+10 0x0000000000c0ede1 __force_env_methods_MOD_force_env_calc_energy_force()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/force_env_methods.F90:259
+11 0x00000000006a11e1 __cp2k_runs_MOD_cp2k_run()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/cp2k_runs.F90:359
+12 0x00000000006a2cf3 __cp2k_runs_MOD_run_input()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/cp2k_runs.F90:968
+13 0x0000000000697ad9 MAIN__()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/cp2k.F90:379
+14 0x0000000000697df5 main()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/cp2k.F90:44
+15 0x000000000003ad85 __libc_start_main()  ???:0
+16 0x00000000006956de _start()  ???:0
+=================================
+
+Program received signal SIGFPE: Floating-point exception - erroneous arithmetic operation.
+
+Backtrace for this error:
+==== backtrace (tid:1825157) ====
+ 0 0x0000000000012cf0 __funlockfile()  :0
+ 1 0x000000000215441c __kpoint_coulomb_2c_MOD_build_2c_coulomb_matrix_kp_small_cell()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/kpoint_coulomb_2c.F90:808
+ 2 0x0000000002443f7d __gw_small_cell_full_kp_MOD_compute_w_real_space()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/gw_small_cell_full_kp.F90:700
+ 3 0x0000000002443f7d compute_w_real_space()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:557
+ 4 0x0000000002449a7e __gw_small_cell_full_kp_MOD_gw_calc_small_cell_full_kp()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/gw_small_cell_full_kp.F90:93
+ 5 0x000000000204f295 __gw_main_MOD_gw()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/gw_main.F90:59
+ 6 0x000000000185d843 __post_scf_bandstructure_methods_MOD_post_scf_bandstructure()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/post_scf_bandstructure_methods.F90:55
+ 7 0x000000000104bf85 __qs_energy_utils_MOD_qs_energies_properties()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/qs_energy_utils.F90:205
+ 8 0x0000000000f8faaf __qs_energy_MOD_qs_energies()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/qs_energy.F90:145
+ 9 0x00000000010dd48b __qs_force_MOD_qs_calc_energy_force()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/qs_force.F90:115
+10 0x0000000000c0ede1 __force_env_methods_MOD_force_env_calc_energy_force()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/force_env_methods.F90:259
+11 0x00000000006a11e1 __cp2k_runs_MOD_cp2k_run()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/cp2k_runs.F90:359
+12 0x00000000006a2cf3 __cp2k_runs_MOD_run_input()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/cp2k_runs.F90:968
+13 0x0000000000697ad9 MAIN__()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/cp2k.F90:379
+14 0x0000000000697df5 main()  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/obj/local/pdbg/cp2k.F90:44
+15 0x000000000003ad85 __libc_start_main()  ???:0
+16 0x00000000006956de _start()  ???:0
+=================================
+
+Program received signal SIGFPE: Floating-point exception - erroneous arithmetic operation.
+
+Backtrace for this error:
+#0  0x14c417271cef in ???
+#0  0x14c8c5941cef in ???
+#0  0x14813d1a5cef in ???
+#0  0x151791c06cef in ???
+#1  0x215441c in __kpoint_coulomb_2c_MOD_build_2c_coulomb_matrix_kp_small_cell
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F:808
+#1  0x215441c in __kpoint_coulomb_2c_MOD_build_2c_coulomb_matrix_kp_small_cell
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F:808
+#1  0x215441c in __kpoint_coulomb_2c_MOD_build_2c_coulomb_matrix_kp_small_cell
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F:808
+#1  0x215441c in __kpoint_coulomb_2c_MOD_build_2c_coulomb_matrix_kp_small_cell
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F:808
+#2  0x2443f7c in compute_minv_and_vsqrt
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:700
+#3  0x2443f7c in compute_w_real_space
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:557
+#4  0x2449a7d in __gw_small_cell_full_kp_MOD_gw_calc_small_cell_full_kp
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:93
+#2  0x2443f7c in compute_minv_and_vsqrt
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:700
+#3  0x2443f7c in compute_w_real_space
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:557
+#4  0x2449a7d in __gw_small_cell_full_kp_MOD_gw_calc_small_cell_full_kp
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:93
+#2  0x2443f7c in compute_minv_and_vsqrt
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:700
+#3  0x2443f7c in compute_w_real_space
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:557
+#4  0x2449a7d in __gw_small_cell_full_kp_MOD_gw_calc_small_cell_full_kp
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:93
+#2  0x2443f7c in compute_minv_and_vsqrt
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:700
+#3  0x2443f7c in compute_w_real_space
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:557
+#4  0x2449a7d in __gw_small_cell_full_kp_MOD_gw_calc_small_cell_full_kp
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:93
+#5  0x204f294 in __gw_main_MOD_gw
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_main.F:59
+#5  0x204f294 in __gw_main_MOD_gw
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_main.F:59
+#5  0x204f294 in __gw_main_MOD_gw
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_main.F:59
+#5  0x204f294 in __gw_main_MOD_gw
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_main.F:59
+#6  0x185d842 in __post_scf_bandstructure_methods_MOD_post_scf_bandstructure
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/post_scf_bandstructure_methods.F:55
+#6  0x185d842 in __post_scf_bandstructure_methods_MOD_post_scf_bandstructure
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/post_scf_bandstructure_methods.F:55
+#6  0x185d842 in __post_scf_bandstructure_methods_MOD_post_scf_bandstructure
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/post_scf_bandstructure_methods.F:55
+#6  0x185d842 in __post_scf_bandstructure_methods_MOD_post_scf_bandstructure
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/post_scf_bandstructure_methods.F:55
+#7  0x104bf84 in __qs_energy_utils_MOD_qs_energies_properties
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy_utils.F:205
+#7  0x104bf84 in __qs_energy_utils_MOD_qs_energies_properties
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy_utils.F:205
+#7  0x104bf84 in __qs_energy_utils_MOD_qs_energies_properties
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy_utils.F:205
+#7  0x104bf84 in __qs_energy_utils_MOD_qs_energies_properties
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy_utils.F:205
+#8  0xf8faae in __qs_energy_MOD_qs_energies
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy.F:145
+#8  0xf8faae in __qs_energy_MOD_qs_energies
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy.F:145
+#8  0xf8faae in __qs_energy_MOD_qs_energies
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy.F:145
+#8  0xf8faae in __qs_energy_MOD_qs_energies
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy.F:145
+#9  0x10dd48a in __qs_force_MOD_qs_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_force.F:115
+#9  0x10dd48a in __qs_force_MOD_qs_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_force.F:115
+#9  0x10dd48a in __qs_force_MOD_qs_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_force.F:115
+#9  0x10dd48a in __qs_force_MOD_qs_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_force.F:115
+#10  0xc0ede0 in __force_env_methods_MOD_force_env_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/force_env_methods.F:259
+#10  0xc0ede0 in __force_env_methods_MOD_force_env_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/force_env_methods.F:259
+#10  0xc0ede0 in __force_env_methods_MOD_force_env_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/force_env_methods.F:259
+#10  0xc0ede0 in __force_env_methods_MOD_force_env_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/force_env_methods.F:259
+#11  0x6a11e0 in cp2k_run
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:359
+#12  0x6a2cf2 in __cp2k_runs_MOD_run_input
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:968
+#13  0x697ad8 in cp2k
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:379
+#14  0x697df4 in main
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:44
+#11  0x6a11e0 in cp2k_run
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:359
+#12  0x6a2cf2 in __cp2k_runs_MOD_run_input
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:968
+#11  0x6a11e0 in cp2k_run
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:359
+#12  0x6a2cf2 in __cp2k_runs_MOD_run_input
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:968
+#11  0x6a11e0 in cp2k_run
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:359
+#12  0x6a2cf2 in __cp2k_runs_MOD_run_input
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:968
+#13  0x697ad8 in cp2k
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:379
+#14  0x697df4 in main
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:44
+#13  0x697ad8 in cp2k
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:379
+#14  0x697df4 in main
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:44
+#13  0x697ad8 in cp2k
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:379
+#14  0x697df4 in main
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:44
+srun: error: n2cn0722: tasks 0,5-7: Floating point exception (core dumped)
+srun: Terminating StepId=11652211.0
+slurmstepd: error:  mpi/pmix_v4: _errhandler: n2cn0722 [0]: pmixp_client_v2.c:212: Error handler invoked: status = -61, source = [slurm.pmix.11652211.0:7]
+slurmstepd: error: *** STEP 11652211.0 ON n2cn0722 CANCELLED AT 2024-08-14T11:23:51 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: n2cn0722: tasks 1-4: Terminated

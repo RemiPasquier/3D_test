@@ -1,0 +1,106 @@
+&GLOBAL
+  PROJECT ZnO
+  PRINT_LEVEL MEDIUM
+  RUN_TYPE ENERGY
+  &TIMINGS
+     THRESHOLD 0.0001
+  &END
+!  TRACE
+&END GLOBAL
+&FORCE_EVAL
+  METHOD Quickstep
+  &DFT
+    BASIS_SET_FILE_NAME  /scratch/hpc-prf-metdyn/metdyn02_Remi/BASIS_AUG_MOLOPT/BASIS_GTH_MOLOPT_AUG_for_excited_states
+    BASIS_SET_FILE_NAME  /scratch/hpc-prf-metdyn/metdyn02_Remi/BASIS_AUG_MOLOPT/BASIS_GTH_MOLOPT_AUG_for_excited_states_RI
+    SORT_BASIS EXP
+    POTENTIAL_FILE_NAME  /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/scalaver/cp2k/data/GTH_SOC_POTENTIALS
+    CHARGE 0
+    &MGRID
+      CUTOFF  500
+      REL_CUTOFF  100
+    &END MGRID
+    &QS
+      METHOD GAPW
+      EPS_DEFAULT 1.0E-12
+      EPS_PGF_ORB 1.0E-12
+    &END QS
+    &SCF
+      SCF_GUESS ATOMIC
+      EPS_SCF 1.0E-9
+      MAX_SCF 1000
+      &PRINT
+        &RESTART ON
+	&END
+      &END
+      ADDED_MOS -1
+      &MIXING
+          METHOD BROYDEN_MIXING
+          ALPHA 0.1
+          BETA 1.5
+          NBROYDEN 8
+      &END
+    &END SCF
+    &XC
+      &XC_FUNCTIONAL PBE
+      &END XC_FUNCTIONAL
+   &END XC
+    &KPOINTS
+      SCHEME MONKHORST-PACK 16 16 16
+      PARALLEL_GROUP_SIZE   -1
+    &END KPOINTS
+   &END DFT
+   &PROPERTIES
+    &BANDSTRUCTURE
+      &GW
+        NUM_TIME_FREQ_POINTS         5
+        MEMORY_PER_PROC              120
+        EPS_FILTER               1E-9
+	KPOINTS_W                16 16 16
+	CUTOFF_RADIUS_RI             7
+      &END
+      &BANDSTRUCTURE_PATH
+        NPOINTS 31
+        SPECIAL_POINT GAMMA 0.0 0.0 0.0
+        SPECIAL_POINT A     0.0 0.0 0.5
+        SPECIAL_POINT L     0.5 0.0 0.5
+        SPECIAL_POINT M     0.5 0.0 0.0
+        SPECIAL_POINT GAMMA 0.0 0.0 0.5
+      &END
+      &SOC
+      &END
+    &END
+  &END PROPERTIES
+  &SUBSYS
+    &CELL
+      ABC 3.25 3.25 5.207
+      ALPHA_BETA_GAMMA 90 90 120                
+      PERIODIC XYZ
+      MULTIPLE_UNIT_CELL 1 1 1
+    &END CELL
+
+    &TOPOLOGY
+      MULTIPLE_UNIT_CELL 1 1 1 
+    &END TOPOLOGY
+
+    &KIND Zn
+      BASIS_SET ORB    aug-SZV-MOLOPT-GTH
+      BASIS_SET RI_AUX RI_aug-SZV-MOLOPT-GTH_N_RI_020_s_p_d_f_g_h_i_6_3_1_0_0_0_0_error_3.8e-02
+      POTENTIAL        GTH-PBE
+    &END KIND
+
+    &KIND O
+      BASIS_SET ORB    aug-SZV-MOLOPT-GTH
+      BASIS_SET RI_AUX RI_aug-SZV-MOLOPT-GTH_N_RI_010_s_p_d_f_g_h_i_4_2_0_0_0_0_0_error_4.9e-02
+      POTENTIAL        GTH-PBE
+    &END KIND
+
+    &COORD
+Zn 0.333333 0.666667 0.000548
+Zn 0.666667 0.333333 0.500548
+O 0.333333 0.666667 0.379762
+O 0.666667 0.333333 0.879762
+SCALED T
+    &END COORD
+  &END SUBSYS
+&END FORCE_EVAL
+

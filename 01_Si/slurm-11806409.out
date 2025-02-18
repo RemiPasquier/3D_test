@@ -1,0 +1,1042 @@
+cpu-bind=MASK - n2cn0972, task  0  0 [4032060]: mask |BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB||BBBBBBBB|BBBBBBBB|  set
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) pc2fs   2) slurm/23.11.5-1   3) DefaultModules
+cpu-bind=MASK - n2cn0972, task  0  0 [4032478]: mask |BBBBBBBB|BBBBBBBB||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0972, task  1  1 [4032479]: mask |--------|--------||BBBBBBBB|BBBBBBBB||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0972, task  2  2 [4032480]: mask |--------|--------||--------|--------||BBBBBBBB|BBBBBBBB||--------|--------||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0972, task  3  3 [4032481]: mask |--------|--------||--------|--------||--------|--------||BBBBBBBB|BBBBBBBB||||--------|--------||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0972, task  4  4 [4032482]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||BBBBBBBB|BBBBBBBB||--------|--------||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0972, task  5  5 [4032483]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||BBBBBBBB|BBBBBBBB||--------|--------||--------|--------|  set
+cpu-bind=MASK - n2cn0972, task  6  6 [4032484]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||BBBBBBBB|BBBBBBBB||--------|--------|  set
+cpu-bind=MASK - n2cn0972, task  7  7 [4032485]: mask |--------|--------||--------|--------||--------|--------||--------|--------||||--------|--------||--------|--------||--------|--------||BBBBBBBB|BBBBBBBB|  set
+2024-08-14 13:54:10.325263: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-14 13:54:10.325264: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-14 13:54:10.325264: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-14 13:54:10.325265: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-14 13:54:10.325271: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-14 13:54:10.325953: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-14 13:54:10.328693: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-14 13:54:10.329467: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-08-14 13:54:11.860148: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-14 13:54:11.860198: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-14 13:54:11.860149: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-14 13:54:11.860200: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-14 13:54:11.860144: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-14 13:54:11.860204: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-14 13:54:11.860161: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-14 13:54:11.860225: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-14 13:54:11.860149: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-14 13:54:11.860185: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-14 13:54:11.860155: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-14 13:54:11.860200: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-14 13:54:11.860151: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-14 13:54:11.860190: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-14 13:54:11.860156: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-08-14 13:54:11.860195: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-08-14 13:54:11.863936: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-14 13:54:11.863940: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-14 13:54:11.863935: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-14 13:54:11.863919: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-14 13:54:11.863936: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-14 13:54:11.863930: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-14 13:54:11.863934: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-08-14 13:54:11.863962: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+DeePMD-kit: Cannot find libcudart.so.11.0
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinary', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFunction', library failed to load
+implib-gen: libcudart.so.11.0: failed to load library 'libcudart.so.11.0' via callback 'DP_cudart_dlopen'
+implib-gen: libcudart.so.11.0: failed to resolve symbol '__cudaRegisterFatBinaryEnd', library failed to load
+[n2cn0972.ab2021.local:4032482] MCW rank 4 bound to socket 1[core 64[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][B/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0972.ab2021.local:4032482] MCW rank 4 bound to socket 1[core 64[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][B/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0972.ab2021.local:4032480] MCW rank 2 bound to socket 0[core 32[hwt 0]]: [././././././././././././././././././././././././././././././././B/././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0972.ab2021.local:4032481] MCW rank 3 bound to socket 0[core 48[hwt 0]]: [././././././././././././././././././././././././././././././././././././././././././././././././B/././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0972.ab2021.local:4032478] MCW rank 0 bound to socket 0[core 0[hwt 0]]: [B/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0972.ab2021.local:4032479] MCW rank 1 bound to socket 0[core 16[hwt 0]]: [././././././././././././././././B/././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0972.ab2021.local:4032480] MCW rank 2 bound to socket 0[core 32[hwt 0]]: [././././././././././././././././././././././././././././././././B/././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0972.ab2021.local:4032481] MCW rank 3 bound to socket 0[core 48[hwt 0]]: [././././././././././././././././././././././././././././././././././././././././././././././././B/././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0972.ab2021.local:4032478] MCW rank 0 bound to socket 0[core 0[hwt 0]]: [B/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0972.ab2021.local:4032479] MCW rank 1 bound to socket 0[core 16[hwt 0]]: [././././././././././././././././B/././././././././././././././././././././././././././././././././././././././././././././././.][./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0972.ab2021.local:4032484] MCW rank 6 bound to socket 1[core 96[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././B/././././././././././././././././././././././././././././././.]
+[n2cn0972.ab2021.local:4032484] MCW rank 6 bound to socket 1[core 96[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././B/././././././././././././././././././././././././././././././.]
+[n2cn0972.ab2021.local:4032485] MCW rank 7 bound to socket 1[core 112[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././././././././././././././././././B/././././././././././././././.]
+[n2cn0972.ab2021.local:4032485] MCW rank 7 bound to socket 1[core 112[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././././././././././././././././././././././././././././././././././B/././././././././././././././.]
+[n2cn0972.ab2021.local:4032483] MCW rank 5 bound to socket 1[core 80[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././B/././././././././././././././././././././././././././././././././././././././././././././././.]
+[n2cn0972.ab2021.local:4032483] MCW rank 5 bound to socket 1[core 80[hwt 0]]: [./././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.][././././././././././././././././B/././././././././././././././././././././././././././././././././././././././././././././././.]
+At line 834 of file /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F
+Fortran runtime error: Index '513' of dimension 1 of array 'testcos' above upper bound of 512
+
+Error termination. Backtrace:
+At line 834 of file /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F
+Fortran runtime error: Index '513' of dimension 1 of array 'testcos' above upper bound of 512
+
+Error termination. Backtrace:
+At line 834 of file /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F
+Fortran runtime error: Index '513' of dimension 1 of array 'testcos' above upper bound of 512
+
+Error termination. Backtrace:
+At line 834 of file /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F
+Fortran runtime error: Index '513' of dimension 1 of array 'testcos' above upper bound of 512
+
+Error termination. Backtrace:
+At line 834 of file /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F
+Fortran runtime error: Index '513' of dimension 1 of array 'testcos' above upper bound of 512
+
+Error termination. Backtrace:
+At line 834 of file /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F
+Fortran runtime error: Index '513' of dimension 1 of array 'testcos' above upper bound of 512
+
+Error termination. Backtrace:
+At line 834 of file /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F
+Fortran runtime error: Index '513' of dimension 1 of array 'testcos' above upper bound of 512
+
+Error termination. Backtrace:
+At line 834 of file /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F
+Fortran runtime error: Index '513' of dimension 1 of array 'testcos' above upper bound of 512
+
+Error termination. Backtrace:
+#0  0x2154623 in __kpoint_coulomb_2c_MOD_build_2c_coulomb_matrix_kp_small_cell
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F:834
+#0  0x2154623 in __kpoint_coulomb_2c_MOD_build_2c_coulomb_matrix_kp_small_cell
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F:834
+#0  0x2154623 in __kpoint_coulomb_2c_MOD_build_2c_coulomb_matrix_kp_small_cell
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F:834
+#0  0x2154623 in __kpoint_coulomb_2c_MOD_build_2c_coulomb_matrix_kp_small_cell
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F:834
+#0  0x2154623 in __kpoint_coulomb_2c_MOD_build_2c_coulomb_matrix_kp_small_cell
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F:834
+#0  0x2154623 in __kpoint_coulomb_2c_MOD_build_2c_coulomb_matrix_kp_small_cell
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F:834
+#0  0x2154623 in __kpoint_coulomb_2c_MOD_build_2c_coulomb_matrix_kp_small_cell
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F:834
+#0  0x2154623 in __kpoint_coulomb_2c_MOD_build_2c_coulomb_matrix_kp_small_cell
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/kpoint_coulomb_2c.F:834
+#1  0x24445f3 in compute_minv_and_vsqrt
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:700
+#2  0x24445f3 in compute_w_real_space
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:557
+#3  0x244a0f4 in __gw_small_cell_full_kp_MOD_gw_calc_small_cell_full_kp
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:93
+#1  0x24445f3 in compute_minv_and_vsqrt
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:700
+#2  0x24445f3 in compute_w_real_space
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:557
+#3  0x244a0f4 in __gw_small_cell_full_kp_MOD_gw_calc_small_cell_full_kp
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:93
+#1  0x24445f3 in compute_minv_and_vsqrt
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:700
+#2  0x24445f3 in compute_w_real_space
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:557
+#3  0x244a0f4 in __gw_small_cell_full_kp_MOD_gw_calc_small_cell_full_kp
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:93
+#1  0x24445f3 in compute_minv_and_vsqrt
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:700
+#2  0x24445f3 in compute_w_real_space
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:557
+#3  0x244a0f4 in __gw_small_cell_full_kp_MOD_gw_calc_small_cell_full_kp
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:93
+#1  0x24445f3 in compute_minv_and_vsqrt
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:700
+#2  0x24445f3 in compute_w_real_space
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:557
+#3  0x244a0f4 in __gw_small_cell_full_kp_MOD_gw_calc_small_cell_full_kp
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:93
+#1  0x24445f3 in compute_minv_and_vsqrt
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:700
+#2  0x24445f3 in compute_w_real_space
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:557
+#3  0x244a0f4 in __gw_small_cell_full_kp_MOD_gw_calc_small_cell_full_kp
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:93
+#1  0x24445f3 in compute_minv_and_vsqrt
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:700
+#2  0x24445f3 in compute_w_real_space
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:557
+#3  0x244a0f4 in __gw_small_cell_full_kp_MOD_gw_calc_small_cell_full_kp
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:93
+#1  0x24445f3 in compute_minv_and_vsqrt
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:700
+#2  0x24445f3 in compute_w_real_space
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:557
+#3  0x244a0f4 in __gw_small_cell_full_kp_MOD_gw_calc_small_cell_full_kp
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_small_cell_full_kp.F:93
+#4  0x204f294 in __gw_main_MOD_gw
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_main.F:59
+#4  0x204f294 in __gw_main_MOD_gw
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_main.F:59
+#4  0x204f294 in __gw_main_MOD_gw
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_main.F:59
+#4  0x204f294 in __gw_main_MOD_gw
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_main.F:59
+#4  0x204f294 in __gw_main_MOD_gw
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_main.F:59
+#4  0x204f294 in __gw_main_MOD_gw
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_main.F:59
+#4  0x204f294 in __gw_main_MOD_gw
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_main.F:59
+#4  0x204f294 in __gw_main_MOD_gw
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/gw_main.F:59
+#5  0x185d842 in __post_scf_bandstructure_methods_MOD_post_scf_bandstructure
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/post_scf_bandstructure_methods.F:55
+#5  0x185d842 in __post_scf_bandstructure_methods_MOD_post_scf_bandstructure
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/post_scf_bandstructure_methods.F:55
+#5  0x185d842 in __post_scf_bandstructure_methods_MOD_post_scf_bandstructure
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/post_scf_bandstructure_methods.F:55
+#5  0x185d842 in __post_scf_bandstructure_methods_MOD_post_scf_bandstructure
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/post_scf_bandstructure_methods.F:55
+#5  0x185d842 in __post_scf_bandstructure_methods_MOD_post_scf_bandstructure
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/post_scf_bandstructure_methods.F:55
+#5  0x185d842 in __post_scf_bandstructure_methods_MOD_post_scf_bandstructure
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/post_scf_bandstructure_methods.F:55
+#5  0x185d842 in __post_scf_bandstructure_methods_MOD_post_scf_bandstructure
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/post_scf_bandstructure_methods.F:55
+#5  0x185d842 in __post_scf_bandstructure_methods_MOD_post_scf_bandstructure
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/post_scf_bandstructure_methods.F:55
+#6  0x104bf84 in __qs_energy_utils_MOD_qs_energies_properties
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy_utils.F:205
+#6  0x104bf84 in __qs_energy_utils_MOD_qs_energies_properties
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy_utils.F:205
+#6  0x104bf84 in __qs_energy_utils_MOD_qs_energies_properties
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy_utils.F:205
+#6  0x104bf84 in __qs_energy_utils_MOD_qs_energies_properties
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy_utils.F:205
+#6  0x104bf84 in __qs_energy_utils_MOD_qs_energies_properties
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy_utils.F:205
+#6  0x104bf84 in __qs_energy_utils_MOD_qs_energies_properties
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy_utils.F:205
+#6  0x104bf84 in __qs_energy_utils_MOD_qs_energies_properties
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy_utils.F:205
+#6  0x104bf84 in __qs_energy_utils_MOD_qs_energies_properties
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy_utils.F:205
+#7  0xf8faae in __qs_energy_MOD_qs_energies
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy.F:145
+#7  0xf8faae in __qs_energy_MOD_qs_energies
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy.F:145
+#7  0xf8faae in __qs_energy_MOD_qs_energies
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy.F:145
+#7  0xf8faae in __qs_energy_MOD_qs_energies
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy.F:145
+#7  0xf8faae in __qs_energy_MOD_qs_energies
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy.F:145
+#7  0xf8faae in __qs_energy_MOD_qs_energies
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy.F:145
+#7  0xf8faae in __qs_energy_MOD_qs_energies
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy.F:145
+#7  0xf8faae in __qs_energy_MOD_qs_energies
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_energy.F:145
+#8  0x10dd48a in __qs_force_MOD_qs_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_force.F:115
+#8  0x10dd48a in __qs_force_MOD_qs_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_force.F:115
+#8  0x10dd48a in __qs_force_MOD_qs_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_force.F:115
+#8  0x10dd48a in __qs_force_MOD_qs_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_force.F:115
+#8  0x10dd48a in __qs_force_MOD_qs_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_force.F:115
+#8  0x10dd48a in __qs_force_MOD_qs_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_force.F:115
+#8  0x10dd48a in __qs_force_MOD_qs_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_force.F:115
+#8  0x10dd48a in __qs_force_MOD_qs_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/qs_force.F:115
+#9  0xc0ede0 in __force_env_methods_MOD_force_env_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/force_env_methods.F:259
+#9  0xc0ede0 in __force_env_methods_MOD_force_env_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/force_env_methods.F:259
+#9  0xc0ede0 in __force_env_methods_MOD_force_env_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/force_env_methods.F:259
+#9  0xc0ede0 in __force_env_methods_MOD_force_env_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/force_env_methods.F:259
+#9  0xc0ede0 in __force_env_methods_MOD_force_env_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/force_env_methods.F:259
+#9  0xc0ede0 in __force_env_methods_MOD_force_env_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/force_env_methods.F:259
+#9  0xc0ede0 in __force_env_methods_MOD_force_env_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/force_env_methods.F:259
+#9  0xc0ede0 in __force_env_methods_MOD_force_env_calc_energy_force
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/force_env_methods.F:259
+#10  0x6a11e0 in cp2k_run
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:359
+#11  0x6a2cf2 in __cp2k_runs_MOD_run_input
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:968
+#10  0x6a11e0 in cp2k_run
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:359
+#11  0x6a2cf2 in __cp2k_runs_MOD_run_input
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:968
+#10  0x6a11e0 in cp2k_run
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:359
+#11  0x6a2cf2 in __cp2k_runs_MOD_run_input
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:968
+#10  0x6a11e0 in cp2k_run
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:359
+#11  0x6a2cf2 in __cp2k_runs_MOD_run_input
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:968
+#10  0x6a11e0 in cp2k_run
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:359
+#11  0x6a2cf2 in __cp2k_runs_MOD_run_input
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:968
+#10  0x6a11e0 in cp2k_run
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:359
+#11  0x6a2cf2 in __cp2k_runs_MOD_run_input
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:968
+#10  0x6a11e0 in cp2k_run
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:359
+#11  0x6a2cf2 in __cp2k_runs_MOD_run_input
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:968
+#10  0x6a11e0 in cp2k_run
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:359
+#11  0x6a2cf2 in __cp2k_runs_MOD_run_input
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k_runs.F:968
+#12  0x697ad8 in cp2k
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:379
+#13  0x697df4 in main
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:44
+#12  0x697ad8 in cp2k
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:379
+#13  0x697df4 in main
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:44
+#12  0x697ad8 in cp2k
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:379
+#13  0x697df4 in main
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:44
+#12  0x697ad8 in cp2k
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:379
+#13  0x697df4 in main
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:44
+#12  0x697ad8 in cp2k
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:379
+#13  0x697df4 in main
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:44
+#12  0x697ad8 in cp2k
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:379
+#13  0x697df4 in main
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:44
+#12  0x697ad8 in cp2k
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:379
+#13  0x697df4 in main
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:44
+#12  0x697ad8 in cp2k
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:379
+#13  0x697df4 in main
+	at /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/vanilla/cp2k/src/start/cp2k.F:44
+
+=================================================================
+==4032485==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 896 byte(s) in 7 object(s) allocated from:
+
+=================================================================
+==4032478==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 896 byte(s) in 7 object(s) allocated from:
+    #0 0x14f16cab1ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14f0e636c48e in ucs_malloc debug/memtrack.c:319
+    #2 0x61a0000053ff  (<unknown module>)
+
+Direct leak of 225 byte(s) in 10 object(s) allocated from:
+    #0 0x14f16cab1ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14f169ed168d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 192 byte(s) in 6 object(s) allocated from:
+    #0 0x14f16cab1ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14f0e636c48e in ucs_malloc debug/memtrack.c:319
+    #2 0x14f0e640df04 in ucp_ep_create_to_worker_addr core/ucp_ep.c:830
+
+Direct leak of 165 byte(s) in 1 object(s) allocated from:
+    #0 0x14f16caaffc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14f169ec0c3a in vasprintf (/lib64/libc.so.6+0x8ec3a) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+
+=================================================================
+==4032481==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 896 byte(s) in 7 object(s) allocated from:
+
+=================================================================
+==4032479==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 896 byte(s) in 7 object(s) allocated from:
+
+=================================================================
+==4032484==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 896 byte(s) in 7 object(s) allocated from:
+    #0 0x148450490ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x1483c1d4948e in ucs_malloc debug/memtrack.c:319
+    #2 0x61a0000053ff  (<unknown module>)
+
+Direct leak of 216 byte(s) in 10 object(s) allocated from:
+    #0 0x148450490ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14844d8b068d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 192 byte(s) in 6 object(s) allocated from:
+    #0 0x148450490ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x1483c1d4948e in ucs_malloc debug/memtrack.c:319
+    #2 0x1483c1deaf04 in ucp_ep_create_to_worker_addr core/ucp_ep.c:830
+
+Direct leak of 165 byte(s) in 1 object(s) allocated from:
+    #0 0x14845048efc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14844d89fc3a in vasprintf (/lib64/libc.so.6+0x8ec3a) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+    #0 0x14f16cab0212 in __interceptor_posix_memalign ../../../../libsanitizer/lsan/lsan_interceptors.cpp:110
+    #1 0x14f0e636c647 in ucs_posix_memalign debug/memtrack.c:347
+    #2 0x7fff06cf30cf  ([stack]+0x4b0cf)
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+    #0 0x150f8d4b6ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x150f06d7048e in ucs_malloc debug/memtrack.c:319
+    #2 0x61a0000053ff  (<unknown module>)
+
+Direct leak of 220 byte(s) in 10 object(s) allocated from:
+    #0 0x150f8d4b6ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x150f8a8d668d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 192 byte(s) in 6 object(s) allocated from:
+    #0 0x150f8d4b6ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x150f06d7048e in ucs_malloc debug/memtrack.c:319
+    #2 0x150f06e11f04 in ucp_ep_create_to_worker_addr core/ucp_ep.c:830
+
+Direct leak of 165 byte(s) in 1 object(s) allocated from:
+    #0 0x150f8d4b4fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x150f8a8c5c3a in vasprintf (/lib64/libc.so.6+0x8ec3a) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+    #0 0x14bd78613ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14bcf1ecd48e in ucs_malloc debug/memtrack.c:319
+    #2 0x61a0000053ff  (<unknown module>)
+
+Direct leak of 220 byte(s) in 10 object(s) allocated from:
+    #0 0x14bd78613ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14bd75a3368d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 192 byte(s) in 6 object(s) allocated from:
+    #0 0x14bd78613ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14bcf1ecd48e in ucs_malloc debug/memtrack.c:319
+    #2 0x14bcf1f6ef04 in ucp_ep_create_to_worker_addr core/ucp_ep.c:830
+
+Direct leak of 165 byte(s) in 1 object(s) allocated from:
+    #0 0x14bd78611fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14bd75a22c3a in vasprintf (/lib64/libc.so.6+0x8ec3a) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+    #0 0x15509b23fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x155014af948e in ucs_malloc debug/memtrack.c:319
+    #2 0x61a0000053ff  (<unknown module>)
+
+Direct leak of 221 byte(s) in 10 object(s) allocated from:
+    #0 0x15509b23fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x15509865f68d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 192 byte(s) in 6 object(s) allocated from:
+    #0 0x15509b23fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x155014af948e in ucs_malloc debug/memtrack.c:319
+    #2 0x155014b9af04 in ucp_ep_create_to_worker_addr core/ucp_ep.c:830
+
+Direct leak of 165 byte(s) in 1 object(s) allocated from:
+    #0 0x15509b23dfc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x15509864ec3a in vasprintf (/lib64/libc.so.6+0x8ec3a) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+    #0 0x14845048f212 in __interceptor_posix_memalign ../../../../libsanitizer/lsan/lsan_interceptors.cpp:110
+    #1 0x1483c1d49647 in ucs_posix_memalign debug/memtrack.c:347
+    #2 0x7ffe59e64c6f  ([stack]+0x4bc6f)
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+    #0 0x14f16cab0212 in __interceptor_posix_memalign ../../../../libsanitizer/lsan/lsan_interceptors.cpp:110
+    #1 0x14f0e636c647 in ucs_posix_memalign debug/memtrack.c:347
+    #2 0x7fff06cf2fef  ([stack]+0x4afef)
+
+Direct leak of 72 byte(s) in 1 object(s) allocated from:
+    #0 0x14f16caaffc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14f168ee5733 in opal_argv_append_nosize (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a733)
+
+Direct leak of 64 byte(s) in 1 object(s) allocated from:
+    #0 0x150f8d4b5212 in __interceptor_posix_memalign ../../../../libsanitizer/lsan/lsan_interceptors.cpp:110
+    #1 0x150f06d70647 in ucs_posix_memalign debug/memtrack.c:347
+    #2 0x7ffc81a2218f  ([stack]+0x4b18f)
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+    #0 0x14bd78612212 in __interceptor_posix_memalign ../../../../libsanitizer/lsan/lsan_interceptors.cpp:110
+    #1 0x14bcf1ecd647 in ucs_posix_memalign debug/memtrack.c:347
+    #2 0x7ffec14aadcf  ([stack]+0x68dcf)
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+    #0 0x15509b23e212 in __interceptor_posix_memalign ../../../../libsanitizer/lsan/lsan_interceptors.cpp:110
+    #1 0x155014af9647 in ucs_posix_memalign debug/memtrack.c:347
+    #2 0x7ffd1cb568af  ([stack]+0x4b8af)
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+    #0 0x14845048f212 in __interceptor_posix_memalign ../../../../libsanitizer/lsan/lsan_interceptors.cpp:110
+    #1 0x1483c1d49647 in ucs_posix_memalign debug/memtrack.c:347
+    #2 0x7ffe59e64b8f  ([stack]+0x4bb8f)
+
+Direct leak of 72 byte(s) in 1 object(s) allocated from:
+    #0 0x14845048efc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14844c8c4733 in opal_argv_append_nosize (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a733)
+
+Direct leak of 64 byte(s) in 1 object(s) allocated from:
+    #0 0x14f16caaffc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14f168ee5733 in opal_argv_append_nosize (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a733)
+    #2 0x6d0063696e7374  (<unknown module>)
+
+Direct leak of 64 byte(s) in 1 object(s) allocated from:
+    #0 0x14f16cab1ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14f0eb3e4eea in mca_mpool_hugepage_open (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/openmpi/mca_mpool_hugepage.so+0x2eea)
+
+Direct leak of 48 byte(s) in 2 object(s) allocated from:
+    #0 0x14f16cab1ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14f0e636c48e in ucs_malloc debug/memtrack.c:319
+
+Direct leak of 38 byte(s) in 1 object(s) allocated from:
+    #0 0x14f16cab1ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14f169ec0c77 in vasprintf (/lib64/libc.so.6+0x8ec77) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 8 byte(s) in 1 object(s) allocated from:
+    #0 0x150f8d4b5212 in __interceptor_posix_memalign ../../../../libsanitizer/lsan/lsan_interceptors.cpp:110
+    #1 0x150f06d70647 in ucs_posix_memalign debug/memtrack.c:347
+    #2 0x7ffc81a220af  ([stack]+0x4b0af)
+
+Direct leak of 72 byte(s) in 1 object(s) allocated from:
+    #0 0x150f8d4b4fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x150f898ea733 in opal_argv_append_nosize (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a733)
+
+Direct leak of 64 byte(s) in 1 object(s) allocated from:
+    #0 0x14bd78612212 in __interceptor_posix_memalign ../../../../libsanitizer/lsan/lsan_interceptors.cpp:110
+    #1 0x14bcf1ecd647 in ucs_posix_memalign debug/memtrack.c:347
+    #2 0x7ffec14aacef  ([stack]+0x68cef)
+
+Direct leak of 72 byte(s) in 1 object(s) allocated from:
+    #0 0x14bd78611fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14bd74a47733 in opal_argv_append_nosize (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a733)
+
+Direct leak of 64 byte(s) in 1 object(s) allocated from:
+    #0 0x15509b23e212 in __interceptor_posix_memalign ../../../../libsanitizer/lsan/lsan_interceptors.cpp:110
+    #1 0x155014af9647 in ucs_posix_memalign debug/memtrack.c:347
+    #2 0x7ffd1cb567cf  ([stack]+0x4b7cf)
+
+Direct leak of 72 byte(s) in 1 object(s) allocated from:
+    #0 0x15509b23dfc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x155097673733 in opal_argv_append_nosize (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a733)
+
+Direct leak of 64 byte(s) in 1 object(s) allocated from:
+    #0 0x14845048efc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14844c8c4733 in opal_argv_append_nosize (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a733)
+    #2 0x6d0063696e7374  (<unknown module>)
+
+Direct leak of 64 byte(s) in 1 object(s) allocated from:
+    #0 0x148450490ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x1483cedbeeea in mca_mpool_hugepage_open (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/openmpi/mca_mpool_hugepage.so+0x2eea)
+
+Direct leak of 48 byte(s) in 2 object(s) allocated from:
+    #0 0x148450490ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x1483c1d4948e in ucs_malloc debug/memtrack.c:319
+
+Direct leak of 29 byte(s) in 1 object(s) allocated from:
+    #0 0x148450490ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14844d89fc77 in vasprintf (/lib64/libc.so.6+0x8ec77) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 8 byte(s) in 1 object(s) allocated from:
+
+=================================================================
+==4032482==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 896 byte(s) in 7 object(s) allocated from:
+    #0 0x14f16cab1ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14f0e636c48e in ucs_malloc debug/memtrack.c:319
+    #2 0x61a000004dff  (<unknown module>)
+
+Indirect leak of 384 byte(s) in 6 object(s) allocated from:
+    #0 0x14f16caaffc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14f0e63b6ff8 in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+Indirect leak of 256 byte(s) in 4 object(s) allocated from:
+    #0 0x14f16cab183a in __interceptor_calloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:90
+    #1 0x14f0e9fc952f in mlx5_reg_mr (/usr/lib64/libibverbs/libmlx5-rdmav34.so+0x5552f) (BuildId: 008bb119357366b38e620d08c72528912717a460)
+
+Indirect leak of 192 byte(s) in 6 object(s) allocated from:
+    #0 0x14f16caaffc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14f0e63b6fdf in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+Indirect leak of 35 byte(s) in 10 object(s) allocated from:
+    #0 0x14f16cab1ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14f169ed168d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Indirect leak of 34 byte(s) in 6 object(s) allocated from:
+    #0 0x14f16cab1ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14f169ed168d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+    #2 0x14f168ee567f in opal_arch_set_fortran_logical_size (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a67f)
+
+Indirect leak of 28 byte(s) in 7 object(s) allocated from:
+    #0 0x14f16cab1ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14f0e63b6dee in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+SUMMARY: LeakSanitizer: 3021 byte(s) leaked in 72 allocation(s).
+    #0 0x150f8d4b4fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x150f898ea733 in opal_argv_append_nosize (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a733)
+    #2 0x6d0063696e7374  (<unknown module>)
+
+Direct leak of 64 byte(s) in 1 object(s) allocated from:
+    #0 0x150f8d4b6ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x150f0bde4eea in mca_mpool_hugepage_open (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/openmpi/mca_mpool_hugepage.so+0x2eea)
+
+Direct leak of 48 byte(s) in 2 object(s) allocated from:
+    #0 0x150f8d4b6ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x150f06d7048e in ucs_malloc debug/memtrack.c:319
+
+Direct leak of 33 byte(s) in 1 object(s) allocated from:
+    #0 0x150f8d4b6ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x150f8a8c5c77 in vasprintf (/lib64/libc.so.6+0x8ec77) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 8 byte(s) in 1 object(s) allocated from:
+    #0 0x14bd78611fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14bd74a47733 in opal_argv_append_nosize (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a733)
+    #2 0x6d0063696e7374  (<unknown module>)
+
+Direct leak of 64 byte(s) in 1 object(s) allocated from:
+    #0 0x14bd78613ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14bcf6f41eea in mca_mpool_hugepage_open (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/openmpi/mca_mpool_hugepage.so+0x2eea)
+
+Direct leak of 48 byte(s) in 2 object(s) allocated from:
+    #0 0x14bd78613ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14bcf1ecd48e in ucs_malloc debug/memtrack.c:319
+
+Direct leak of 33 byte(s) in 1 object(s) allocated from:
+    #0 0x14bd78613ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14bd75a22c77 in vasprintf (/lib64/libc.so.6+0x8ec77) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 8 byte(s) in 1 object(s) allocated from:
+    #0 0x15509b23dfc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x155097673733 in opal_argv_append_nosize (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a733)
+    #2 0x6d0063696e7374  (<unknown module>)
+
+Direct leak of 64 byte(s) in 1 object(s) allocated from:
+    #0 0x15509b23fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x155019b6deea in mca_mpool_hugepage_open (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/openmpi/mca_mpool_hugepage.so+0x2eea)
+
+Direct leak of 48 byte(s) in 2 object(s) allocated from:
+    #0 0x15509b23fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x155014af948e in ucs_malloc debug/memtrack.c:319
+
+Direct leak of 34 byte(s) in 1 object(s) allocated from:
+    #0 0x148450490ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x1483c1d4948e in ucs_malloc debug/memtrack.c:319
+    #2 0x61a000004dff  (<unknown module>)
+
+Indirect leak of 384 byte(s) in 6 object(s) allocated from:
+    #0 0x15509b23fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x15509864ec77 in vasprintf (/lib64/libc.so.6+0x8ec77) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 8 byte(s) in 1 object(s) allocated from:
+    #0 0x14845048efc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x1483c1d93ff8 in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+Indirect leak of 256 byte(s) in 4 object(s) allocated from:
+    #0 0x14845049083a in __interceptor_calloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:90
+    #1 0x1483c59a252f in mlx5_reg_mr (/usr/lib64/libibverbs/libmlx5-rdmav34.so+0x5552f) (BuildId: 008bb119357366b38e620d08c72528912717a460)
+
+Indirect leak of 192 byte(s) in 6 object(s) allocated from:
+    #0 0x14845048efc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x1483c1d93fdf in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+Indirect leak of 69 byte(s) in 16 object(s) allocated from:
+    #0 0x148450490ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14844d8b068d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Indirect leak of 28 byte(s) in 7 object(s) allocated from:
+    #0 0x148450490ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x1483c1d93dee in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+SUMMARY: LeakSanitizer: 3003 byte(s) leaked in 72 allocation(s).
+    #0 0x1538a028fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x153819b4a48e in ucs_malloc debug/memtrack.c:319
+    #2 0x61a0000053ff  (<unknown module>)
+
+Direct leak of 220 byte(s) in 10 object(s) allocated from:
+    #0 0x1538a028fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x15389d6af68d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 192 byte(s) in 6 object(s) allocated from:
+    #0 0x1538a028fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x153819b4a48e in ucs_malloc debug/memtrack.c:319
+    #2 0x153819bebf04 in ucp_ep_create_to_worker_addr core/ucp_ep.c:830
+
+Direct leak of 165 byte(s) in 1 object(s) allocated from:
+    #0 0x1538a028dfc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x15389d69ec3a in vasprintf (/lib64/libc.so.6+0x8ec3a) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+    #0 0x150f8d4b6ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x150f06d7048e in ucs_malloc debug/memtrack.c:319
+    #2 0x61a000004dff  (<unknown module>)
+
+Indirect leak of 384 byte(s) in 6 object(s) allocated from:
+    #0 0x150f8d4b4fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x150f06dbaff8 in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+Indirect leak of 256 byte(s) in 4 object(s) allocated from:
+    #0 0x150f8d4b683a in __interceptor_calloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:90
+    #1 0x150f0a9c952f in mlx5_reg_mr (/usr/lib64/libibverbs/libmlx5-rdmav34.so+0x5552f) (BuildId: 008bb119357366b38e620d08c72528912717a460)
+
+Indirect leak of 192 byte(s) in 6 object(s) allocated from:
+    #0 0x150f8d4b4fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x150f06dbafdf in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+Indirect leak of 35 byte(s) in 10 object(s) allocated from:
+    #0 0x150f8d4b6ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x150f8a8d668d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Indirect leak of 34 byte(s) in 6 object(s) allocated from:
+
+=================================================================
+==4032480==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 896 byte(s) in 7 object(s) allocated from:
+    #0 0x14bd78613ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14bcf1ecd48e in ucs_malloc debug/memtrack.c:319
+    #2 0x61a000004dff  (<unknown module>)
+
+Indirect leak of 384 byte(s) in 6 object(s) allocated from:
+    #0 0x14bd78611fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14bcf1f17ff8 in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+Indirect leak of 256 byte(s) in 4 object(s) allocated from:
+    #0 0x14bd7861383a in __interceptor_calloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:90
+    #1 0x14bcf5b2652f in mlx5_reg_mr (/usr/lib64/libibverbs/libmlx5-rdmav34.so+0x5552f) (BuildId: 008bb119357366b38e620d08c72528912717a460)
+
+Indirect leak of 192 byte(s) in 6 object(s) allocated from:
+    #0 0x14bd78611fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14bcf1f17fdf in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+Indirect leak of 35 byte(s) in 10 object(s) allocated from:
+    #0 0x14bd78613ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14bd75a3368d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Indirect leak of 34 byte(s) in 6 object(s) allocated from:
+    #0 0x14bd78613ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14bd75a3368d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+    #2 0x14bd74a4767f in opal_arch_set_fortran_logical_size (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a67f)
+
+Indirect leak of 28 byte(s) in 7 object(s) allocated from:
+    #0 0x14bd78613ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14bcf1f17dee in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+SUMMARY: LeakSanitizer: 3011 byte(s) leaked in 72 allocation(s).
+    #0 0x15509b23fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x155014af948e in ucs_malloc debug/memtrack.c:319
+    #2 0x61a000004dff  (<unknown module>)
+
+Indirect leak of 384 byte(s) in 6 object(s) allocated from:
+    #0 0x15509b23dfc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x155014b43ff8 in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+Indirect leak of 256 byte(s) in 4 object(s) allocated from:
+    #0 0x15509b23f83a in __interceptor_calloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:90
+    #1 0x15501875252f in mlx5_reg_mr (/usr/lib64/libibverbs/libmlx5-rdmav34.so+0x5552f) (BuildId: 008bb119357366b38e620d08c72528912717a460)
+
+Indirect leak of 192 byte(s) in 6 object(s) allocated from:
+    #0 0x15509b23dfc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x155014b43fdf in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+Indirect leak of 35 byte(s) in 10 object(s) allocated from:
+    #0 0x15509b23fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x15509865f68d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Indirect leak of 34 byte(s) in 6 object(s) allocated from:
+    #0 0x1538a028e212 in __interceptor_posix_memalign ../../../../libsanitizer/lsan/lsan_interceptors.cpp:110
+    #1 0x153819b4a647 in ucs_posix_memalign debug/memtrack.c:347
+    #2 0x7fffc3f2de4f  ([stack]+0x4ae4f)
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+
+=================================================================
+==4032483==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 896 byte(s) in 7 object(s) allocated from:
+    #0 0x150f8d4b6ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x150f8a8d668d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+    #2 0x7ffc81a22bc7  ([stack]+0x4bbc7)
+
+Indirect leak of 28 byte(s) in 7 object(s) allocated from:
+    #0 0x150f8d4b6ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x150f06dbadee in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+SUMMARY: LeakSanitizer: 3011 byte(s) leaked in 72 allocation(s).
+    #0 0x14c1f8a16ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14c1722cb48e in ucs_malloc debug/memtrack.c:319
+    #2 0x61a0000053ff  (<unknown module>)
+
+Direct leak of 220 byte(s) in 10 object(s) allocated from:
+    #0 0x14c1f8a16ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14c1f5e3668d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 192 byte(s) in 6 object(s) allocated from:
+    #0 0x14c1f8a16ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14c1722cb48e in ucs_malloc debug/memtrack.c:319
+    #2 0x14c17236cf04 in ucp_ep_create_to_worker_addr core/ucp_ep.c:830
+
+Direct leak of 165 byte(s) in 1 object(s) allocated from:
+    #0 0x14c1f8a14fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14c1f5e25c3a in vasprintf (/lib64/libc.so.6+0x8ec3a) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+    #0 0x15509b23fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x15509865f68d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+    #2 0x7ffd1cb56edf  ([stack]+0x4bedf)
+
+Indirect leak of 28 byte(s) in 7 object(s) allocated from:
+    #0 0x15509b23fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x155014b43dee in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+SUMMARY: LeakSanitizer: 3013 byte(s) leaked in 72 allocation(s).
+    #0 0x1538a028e212 in __interceptor_posix_memalign ../../../../libsanitizer/lsan/lsan_interceptors.cpp:110
+    #1 0x153819b4a647 in ucs_posix_memalign debug/memtrack.c:347
+    #2 0x7fffc3f2dd6f  ([stack]+0x4ad6f)
+
+Direct leak of 72 byte(s) in 1 object(s) allocated from:
+    #0 0x1538a028dfc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x15389c6c3733 in opal_argv_append_nosize (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a733)
+
+Direct leak of 64 byte(s) in 1 object(s) allocated from:
+    #0 0x1528f0a79ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x15286a33448e in ucs_malloc debug/memtrack.c:319
+    #2 0x61a0000053ff  (<unknown module>)
+
+Direct leak of 221 byte(s) in 10 object(s) allocated from:
+    #0 0x1528f0a79ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x1528ede9968d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 165 byte(s) in 1 object(s) allocated from:
+    #0 0x1528f0a77fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x1528ede88c3a in vasprintf (/lib64/libc.so.6+0x8ec3a) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 160 byte(s) in 5 object(s) allocated from:
+    #0 0x1528f0a79ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x15286a33448e in ucs_malloc debug/memtrack.c:319
+    #2 0x15286a3d5f04 in ucp_ep_create_to_worker_addr core/ucp_ep.c:830
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+    #0 0x14c1f8a15212 in __interceptor_posix_memalign ../../../../libsanitizer/lsan/lsan_interceptors.cpp:110
+    #1 0x14c1722cb647 in ucs_posix_memalign debug/memtrack.c:347
+    #2 0x7ffc923b696f  ([stack]+0x4b96f)
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+    #0 0x1538a028dfc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x15389c6c3733 in opal_argv_append_nosize (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a733)
+    #2 0x6d0063696e7374  (<unknown module>)
+
+Direct leak of 64 byte(s) in 1 object(s) allocated from:
+    #0 0x1538a028fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x15381ebbeeea in mca_mpool_hugepage_open (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/openmpi/mca_mpool_hugepage.so+0x2eea)
+
+Direct leak of 48 byte(s) in 2 object(s) allocated from:
+    #0 0x1538a028fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x153819b4a48e in ucs_malloc debug/memtrack.c:319
+
+Direct leak of 33 byte(s) in 1 object(s) allocated from:
+    #0 0x1528f0a78212 in __interceptor_posix_memalign ../../../../libsanitizer/lsan/lsan_interceptors.cpp:110
+    #1 0x15286a334647 in ucs_posix_memalign debug/memtrack.c:347
+    #2 0x7ffe216bd76f  ([stack]+0x6876f)
+
+Direct leak of 160 byte(s) in 1 object(s) allocated from:
+    #0 0x1538a028fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x15389d69ec77 in vasprintf (/lib64/libc.so.6+0x8ec77) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 8 byte(s) in 1 object(s) allocated from:
+    #0 0x14c1f8a15212 in __interceptor_posix_memalign ../../../../libsanitizer/lsan/lsan_interceptors.cpp:110
+    #1 0x14c1722cb647 in ucs_posix_memalign debug/memtrack.c:347
+    #2 0x7ffc923b688f  ([stack]+0x4b88f)
+
+Direct leak of 72 byte(s) in 1 object(s) allocated from:
+    #0 0x14c1f8a14fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14c1f4e4a733 in opal_argv_append_nosize (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a733)
+
+Direct leak of 64 byte(s) in 1 object(s) allocated from:
+    #0 0x1528f0a78212 in __interceptor_posix_memalign ../../../../libsanitizer/lsan/lsan_interceptors.cpp:110
+    #1 0x15286a334647 in ucs_posix_memalign debug/memtrack.c:347
+    #2 0x7ffe216bd68f  ([stack]+0x6868f)
+
+Direct leak of 72 byte(s) in 1 object(s) allocated from:
+    #0 0x1528f0a77fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x1528ecead733 in opal_argv_append_nosize (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a733)
+
+Direct leak of 64 byte(s) in 1 object(s) allocated from:
+    #0 0x1538a028fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x153819b4a48e in ucs_malloc debug/memtrack.c:319
+    #2 0x61a000004dff  (<unknown module>)
+
+Indirect leak of 384 byte(s) in 6 object(s) allocated from:
+    #0 0x1538a028dfc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x153819b94ff8 in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+Indirect leak of 256 byte(s) in 4 object(s) allocated from:
+    #0 0x1538a028f83a in __interceptor_calloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:90
+    #1 0x15381d7a352f in mlx5_reg_mr (/usr/lib64/libibverbs/libmlx5-rdmav34.so+0x5552f) (BuildId: 008bb119357366b38e620d08c72528912717a460)
+
+Indirect leak of 192 byte(s) in 6 object(s) allocated from:
+    #0 0x1538a028dfc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x153819b94fdf in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+Indirect leak of 35 byte(s) in 10 object(s) allocated from:
+    #0 0x1538a028fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x15389d6af68d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Indirect leak of 34 byte(s) in 6 object(s) allocated from:
+    #0 0x1538a028fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x15389d6af68d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+    #2 0x15389c6c367f in opal_arch_set_fortran_logical_size (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a67f)
+
+Indirect leak of 28 byte(s) in 7 object(s) allocated from:
+    #0 0x1538a028fce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x153819b94dee in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+SUMMARY: LeakSanitizer: 3011 byte(s) leaked in 72 allocation(s).
+    #0 0x14c1f8a14fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14c1f4e4a733 in opal_argv_append_nosize (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a733)
+    #2 0x6d0063696e7374  (<unknown module>)
+
+Direct leak of 64 byte(s) in 1 object(s) allocated from:
+    #0 0x14c1f8a16ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14c177341eea in mca_mpool_hugepage_open (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/openmpi/mca_mpool_hugepage.so+0x2eea)
+
+Direct leak of 48 byte(s) in 2 object(s) allocated from:
+    #0 0x14c1f8a16ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14c1722cb48e in ucs_malloc debug/memtrack.c:319
+
+Direct leak of 33 byte(s) in 1 object(s) allocated from:
+    #0 0x14c1f8a16ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14c1f5e25c77 in vasprintf (/lib64/libc.so.6+0x8ec77) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 8 byte(s) in 1 object(s) allocated from:
+    #0 0x1528f0a77fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x1528ecead733 in opal_argv_append_nosize (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/libopen-pal.so.40+0x5a733)
+    #2 0x6d0063696e7374  (<unknown module>)
+
+Direct leak of 64 byte(s) in 1 object(s) allocated from:
+    #0 0x1528f0a79ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x15286f3a8eea in mca_mpool_hugepage_open (/opt/software/pc2/EB-SW/software/OpenMPI/4.1.6-GCC-13.2.0/lib/openmpi/mca_mpool_hugepage.so+0x2eea)
+
+Direct leak of 48 byte(s) in 2 object(s) allocated from:
+    #0 0x1528f0a79ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x15286a33448e in ucs_malloc debug/memtrack.c:319
+
+Direct leak of 34 byte(s) in 1 object(s) allocated from:
+    #0 0x1528f0a79ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x1528ede88c77 in vasprintf (/lib64/libc.so.6+0x8ec77) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Direct leak of 8 byte(s) in 1 object(s) allocated from:
+    #0 0x14c1f8a16ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14c1722cb48e in ucs_malloc debug/memtrack.c:319
+    #2 0x61a000004dff  (<unknown module>)
+
+Indirect leak of 384 byte(s) in 6 object(s) allocated from:
+    #0 0x14c1f8a14fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14c172315ff8 in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+Indirect leak of 256 byte(s) in 4 object(s) allocated from:
+    #0 0x14c1f8a1683a in __interceptor_calloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:90
+    #1 0x14c175f2652f in mlx5_reg_mr (/usr/lib64/libibverbs/libmlx5-rdmav34.so+0x5552f) (BuildId: 008bb119357366b38e620d08c72528912717a460)
+
+Indirect leak of 192 byte(s) in 6 object(s) allocated from:
+    #0 0x14c1f8a14fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x14c172315fdf in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+Indirect leak of 35 byte(s) in 10 object(s) allocated from:
+    #0 0x14c1f8a16ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14c1f5e3668d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Indirect leak of 34 byte(s) in 6 object(s) allocated from:
+    #0 0x1528f0a79ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x15286a33448e in ucs_malloc debug/memtrack.c:319
+    #2 0x61a000004dff  (<unknown module>)
+
+Indirect leak of 384 byte(s) in 6 object(s) allocated from:
+    #0 0x1528f0a77fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x15286a37eff8 in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+Indirect leak of 256 byte(s) in 4 object(s) allocated from:
+    #0 0x1528f0a7983a in __interceptor_calloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:90
+    #1 0x15286df8d52f in mlx5_reg_mr (/usr/lib64/libibverbs/libmlx5-rdmav34.so+0x5552f) (BuildId: 008bb119357366b38e620d08c72528912717a460)
+
+Indirect leak of 160 byte(s) in 5 object(s) allocated from:
+    #0 0x1528f0a77fc6 in __interceptor_realloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:98
+    #1 0x15286a37efdf in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+Indirect leak of 35 byte(s) in 10 object(s) allocated from:
+    #0 0x1528f0a79ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x1528ede9968d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+
+Indirect leak of 34 byte(s) in 6 object(s) allocated from:
+    #0 0x14c1f8a16ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14c1f5e3668d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+    #2 0x7ffc923b6f9f  ([stack]+0x4bf9f)
+
+Indirect leak of 28 byte(s) in 7 object(s) allocated from:
+    #0 0x14c1f8a16ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x14c172315dee in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+SUMMARY: LeakSanitizer: 3011 byte(s) leaked in 72 allocation(s).
+    #0 0x1528f0a79ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x1528ede9968d in __strdup (/lib64/libc.so.6+0x9f68d) (BuildId: bcf7d4714a96a09aa490186eff807f4877855aa8)
+    #2 0x7ffe216bdd9f  ([stack]+0x68d9f)
+
+Indirect leak of 28 byte(s) in 7 object(s) allocated from:
+    #0 0x1528f0a79ce5 in __interceptor_malloc ../../../../libsanitizer/lsan/lsan_interceptors.cpp:75
+    #1 0x15286a37edee in kh_resize_uct_mm_remote_seg sm/mm/base/mm_ep.h:17
+
+SUMMARY: LeakSanitizer: 2949 byte(s) leaked in 70 allocation(s).
+srun: error: n2cn0972: tasks 0-7: Exited with exit code 23
+srun: Terminating StepId=11806409.0
