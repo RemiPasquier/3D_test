@@ -1,10 +1,10 @@
 #!/bin/bash
-#SBATCH -t 48:00:00
+#SBATCH -t 72:00:00
 #SBATCH --ntasks-per-node=8
 #SBATCH -c 16
 #SBATCH -N 16
 #SBATCH -J "SiC"
-#SBATCH --account=hpc-prf-metdyn
+#SBATCH --account=hpc-prf-coopfst
 #SBATCH -p largemem
 ##SBATCH -q express
 
@@ -16,4 +16,4 @@ module purge
 module load chem/CP2K/2024.1-foss-2023b-gcc-openmpi-openblas-libgrpp
 
 rm cp2k.out
-srun /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/cp2k/exe/local/cp2k.psmp *inp >> cp2k.out
+srun /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/newcp2k/cp2k/exe/local/cp2k.psmp *inp >> cp2k.out

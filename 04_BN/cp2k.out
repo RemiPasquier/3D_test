@@ -19,10 +19,10 @@ SIRIUS 7.5.2, git hash: https://api.github.com/repos/electronic-structure/SIRIUS
  DBCSR| Split modifier for TAS multiplication algorithm                  1.0E+00 (U)
 
 
-  **** **** ******  **  PROGRAM STARTED AT               2025-02-16 00:21:37.151
- ***** ** ***  *** **   PROGRAM STARTED ON                n2lcn0103.ab2021.local
+  **** **** ******  **  PROGRAM STARTED AT               2025-02-22 01:15:28.647
+ ***** ** ***  *** **   PROGRAM STARTED ON                             n2lcn0106
  **    ****   ******    PROGRAM STARTED BY                              metdyn02
- ***** **    ** ** **   PROGRAM PROCESS ID                               1092159
+ ***** **    ** ** **   PROGRAM PROCESS ID                               3045331
   **** **  *******  **  PROGRAM STARTED IN /scratch/hpc-prf-metdyn/metdyn02_Remi
                                            /08_3D/04_BN
 
@@ -66,12 +66,12 @@ SIRIUS 7.5.2, git hash: https://api.github.com/repos/electronic-structure/SIRIUS
  MEMORY| system memory details [Kb]
  MEMORY|                        rank 0           min           max       average
  MEMORY| MemTotal           1056622248    1056622240    1056622248    1056622246
- MEMORY| MemFree            1040293292    1035596184    1047838140    1044073641
- MEMORY| Buffers                117208         12856        292520        173120
- MEMORY| Cached               10218640       3881868      14567336       6541039
- MEMORY| Slab                  1988440       1463712       2400756       1942119
- MEMORY| SReclaimable           383656        227820        570624        344642
- MEMORY| MemLikelyFree      1051012796    1050633452    1052053792    1051132444
+ MEMORY| MemFree            1041299920    1036750960    1046857728    1043431633
+ MEMORY| Buffers                196780         23644        293148        171337
+ MEMORY| Cached                9047752       4540284      13369896       6966584
+ MEMORY| Slab                  2102868       1407112       2387552       1943386
+ MEMORY| SReclaimable           488516        245324        582200        371066
+ MEMORY| MemLikelyFree      1051032968    1049391156    1052289144    1050940622
 
 
  *** Fundamental physical constants (SI units) ***
@@ -2535,51 +2535,38 @@ SIRIUS 7.5.2, git hash: https://api.github.com/repos/electronic-structure/SIRIUS
                                                          2.542637       0.000000
                                                          7.341988       0.000000
 
-     RI Auxiliary Basis Set             RI_aug-SZV-MOLOPT-GTH_N_RI_021_s_p_d_f_g
+     RI Auxiliary Basis Set             RI_aug-SZV-MOLOPT-GTH_N_RI_013_s_p_d_f_g
 
-       Number of orbital shell sets:                                          11
-       Number of orbital shells:                                              11
-       Number of primitive Cartesian functions:                               11
-       Number of Cartesian basis functions:                                   22
-       Number of spherical basis functions:                                   21
+       Number of orbital shell sets:                                           7
+       Number of orbital shells:                                               7
+       Number of primitive Cartesian functions:                                7
+       Number of Cartesian basis functions:                                   13
+       Number of spherical basis functions:                                   13
        Norm type:                                                              2
 
        Normalised Cartesian orbitals:
 
                         Set   Shell   Orbital            Exponent    Coefficient
 
-                          1       1    1s                0.278425       0.273175
+                          1       1    1s                0.404800       0.361693
 
-                          2       1   11dx2              0.432023       0.378918
-                          2       1   11dxy              0.432023       0.656306
-                          2       1   11dxz              0.432023       0.656306
-                          2       1   11dy2              0.432023       0.378918
-                          2       1   11dyz              0.432023       0.656306
-                          2       1   11dz2              0.432023       0.378918
+                          2       1    5px               0.821207       1.114310
+                          2       1    5py               0.821207       1.114310
+                          2       1    5pz               0.821207       1.114310
 
-                          3       1    2s                0.531754       0.443806
+                          3       1    2s                1.185672       0.809811
 
-                          4       1    8px               0.776680       1.039304
-                          4       1    8py               0.776680       1.039304
-                          4       1    8pz               0.776680       1.039304
+                          4       1    3s                2.413330       1.379980
 
-                          5       1    3s                0.995171       0.710123
+                          5       1    6px               2.774970       5.105202
+                          5       1    6py               2.774970       5.105202
+                          5       1    6pz               2.774970       5.105202
 
-                          6       1    4s                1.853738       1.132260
+                          6       1    7px               9.720825      24.466339
+                          6       1    7py               9.720825      24.466339
+                          6       1    7pz               9.720825      24.466339
 
-                          7       1    9px               2.084721       3.570672
-                          7       1    9py               2.084721       3.570672
-                          7       1    9pz               2.084721       3.570672
-
-                          8       1    5s                3.479268       1.815625
-
-                          9       1    6s                6.524366       2.909470
-
-                         10       1   10px               7.049142      16.372326
-                         10       1   10py               7.049142      16.372326
-                         10       1   10pz               7.049142      16.372326
-
-                         11       1    7s               12.232175       4.661631
+                          7       1    4s               11.991002       4.592527
 
        Atomic covalent radius [Angstrom]:                                  0.750
 
@@ -2952,46 +2939,46 @@ SIRIUS 7.5.2, git hash: https://api.github.com/repos/electronic-structure/SIRIUS
 
   Step     Update method      Time    Convergence         Total energy    Change
   ------------------------------------------------------------------------------
-     1 NoMix/Diag. 0.10E+00   34.0     5.22240874       -12.2498681489 -1.22E+01
-     2 Broy./Diag. 0.10E+00   33.4     0.64984753        -9.7536241360  2.50E+00
-     3 Broy./Diag. 0.10E+00   33.9     0.95812315       -10.6561835664 -9.03E-01
+     1 NoMix/Diag. 0.10E+00   36.8     5.22240874       -12.2498681489 -1.22E+01
+     2 Broy./Diag. 0.10E+00   34.9     0.64984753        -9.7536241360  2.50E+00
+     3 Broy./Diag. 0.10E+00   36.0     0.95812315       -10.6561835664 -9.03E-01
      4 Broy./Diag. 0.10E+00   33.7     2.75331050       -11.9751669644 -1.32E+00
      5 Broy./Diag. 0.10E+00   33.4     1.07788089       -12.7229708149 -7.48E-01
-     6 Broy./Diag. 0.10E+00   33.8     0.56136007       -12.3527596926  3.70E-01
-     7 Broy./Diag. 0.10E+00   34.3     0.39524982       -12.1270219442  2.26E-01
-     8 Broy./Diag. 0.10E+00   34.0     0.11912002       -12.0482150910  7.88E-02
-     9 Broy./Diag. 0.10E+00   35.9     0.26037437       -12.1495347017 -1.01E-01
-    10 Broy./Diag. 0.10E+00   33.1     0.02199426       -12.2343295894 -8.48E-02
-    11 Broy./Diag. 0.10E+00   34.2     0.03134368       -12.2457291926 -1.14E-02
-    12 Broy./Diag. 0.10E+00   33.3     0.02529013       -12.2480064183 -2.28E-03
-    13 Broy./Diag. 0.10E+00   33.8     0.00078512       -12.2398607738  8.15E-03
-    14 Broy./Diag. 0.10E+00   34.6     0.00272700       -12.2392967014  5.64E-04
-    15 Broy./Diag. 0.10E+00   34.9     0.00211415       -12.2391363244  1.60E-04
-    16 Broy./Diag. 0.10E+00   33.6     0.00029222       -12.2397214708 -5.85E-04
-    17 Broy./Diag. 0.10E+00   33.5     0.00030016       -12.2396808563  4.06E-05
-    18 Broy./Diag. 0.10E+00   36.2     0.00042356       -12.2396737428  7.11E-06
-    19 Broy./Diag. 0.10E+00   33.9     0.00012702       -12.2395232750  1.50E-04
-    20 Broy./Diag. 0.10E+00   34.2     0.00000225       -12.2394920287  3.12E-05
-    21 Broy./Diag. 0.10E+00   34.6     0.00005288       -12.2395073788 -1.54E-05
-    22 Broy./Diag. 0.10E+00   33.7     0.00000192       -12.2395237397 -1.64E-05
-    23 Broy./Diag. 0.10E+00   33.3     0.00000165       -12.2395244537 -7.14E-07
-    24 Broy./Diag. 0.10E+00   33.7     0.00000272       -12.2395250450 -5.91E-07
-    25 Broy./Diag. 0.10E+00   34.1     0.00001027       -12.2395267463 -1.70E-06
+     6 Broy./Diag. 0.10E+00   34.0     0.56136007       -12.3527596926  3.70E-01
+     7 Broy./Diag. 0.10E+00   33.7     0.39524982       -12.1270219442  2.26E-01
+     8 Broy./Diag. 0.10E+00   34.7     0.11912002       -12.0482150910  7.88E-02
+     9 Broy./Diag. 0.10E+00   33.5     0.26037437       -12.1495347017 -1.01E-01
+    10 Broy./Diag. 0.10E+00   34.1     0.02199426       -12.2343295894 -8.48E-02
+    11 Broy./Diag. 0.10E+00   33.8     0.03134368       -12.2457291926 -1.14E-02
+    12 Broy./Diag. 0.10E+00   36.5     0.02529013       -12.2480064183 -2.28E-03
+    13 Broy./Diag. 0.10E+00   33.2     0.00078512       -12.2398607738  8.15E-03
+    14 Broy./Diag. 0.10E+00   36.4     0.00272700       -12.2392967014  5.64E-04
+    15 Broy./Diag. 0.10E+00   35.0     0.00211415       -12.2391363244  1.60E-04
+    16 Broy./Diag. 0.10E+00   36.0     0.00029222       -12.2397214708 -5.85E-04
+    17 Broy./Diag. 0.10E+00   33.4     0.00030016       -12.2396808563  4.06E-05
+    18 Broy./Diag. 0.10E+00   33.6     0.00042356       -12.2396737428  7.11E-06
+    19 Broy./Diag. 0.10E+00   33.7     0.00012702       -12.2395232750  1.50E-04
+    20 Broy./Diag. 0.10E+00   33.7     0.00000225       -12.2394920287  3.12E-05
+    21 Broy./Diag. 0.10E+00   33.4     0.00005288       -12.2395073788 -1.54E-05
+    22 Broy./Diag. 0.10E+00   34.5     0.00000192       -12.2395237397 -1.64E-05
+    23 Broy./Diag. 0.10E+00   33.5     0.00000165       -12.2395244537 -7.14E-07
+    24 Broy./Diag. 0.10E+00   33.4     0.00000272       -12.2395250450 -5.91E-07
+    25 Broy./Diag. 0.10E+00   33.3     0.00001027       -12.2395267463 -1.70E-06
     26 Broy./Diag. 0.10E+00   33.7     0.00000067       -12.2395296436 -2.90E-06
-    27 Broy./Diag. 0.10E+00   34.2     0.00000145       -12.2395298167 -1.73E-07
-    28 Broy./Diag. 0.10E+00   33.7     0.00000085       -12.2395301126 -2.96E-07
-    29 Broy./Diag. 0.10E+00   34.8     0.00000039       -12.2395299432  1.69E-07
-    30 Broy./Diag. 0.10E+00   35.3     0.00000003       -12.2395300803 -1.37E-07
-    31 Broy./Diag. 0.10E+00   33.6     0.00000005       -12.2395300887 -8.37E-09
-    32 Broy./Diag. 0.10E+00   34.6     5.8582E-09       -12.2395300758  1.29E-08
-    33 Broy./Diag. 0.10E+00   33.9     0.00000002       -12.2395300830 -7.24E-09
-    34 Broy./Diag. 0.10E+00   33.7     4.2315E-09       -12.2395300902 -7.18E-09
-    35 Broy./Diag. 0.10E+00   33.2     3.6251E-09       -12.2395300917 -1.49E-09
-    36 Broy./Diag. 0.10E+00   35.0     1.1452E-09       -12.2395300921 -3.89E-10
-    37 Broy./Diag. 0.10E+00   35.9     3.4024E-09       -12.2395300925 -3.81E-10
-    38 Broy./Diag. 0.10E+00   33.6     2.0193E-09       -12.2395300930 -5.10E-10
-    39 Broy./Diag. 0.10E+00   33.3     1.3078E-09       -12.2395300927  3.29E-10
-    40 Broy./Diag. 0.10E+00   33.9     3.6324E-10       -12.2395300930 -3.10E-10
+    27 Broy./Diag. 0.10E+00   33.3     0.00000145       -12.2395298167 -1.73E-07
+    28 Broy./Diag. 0.10E+00   33.1     0.00000085       -12.2395301126 -2.96E-07
+    29 Broy./Diag. 0.10E+00   33.9     0.00000039       -12.2395299432  1.69E-07
+    30 Broy./Diag. 0.10E+00   33.1     0.00000003       -12.2395300803 -1.37E-07
+    31 Broy./Diag. 0.10E+00   33.7     0.00000005       -12.2395300887 -8.37E-09
+    32 Broy./Diag. 0.10E+00   33.1     5.8348E-09       -12.2395300758  1.29E-08
+    33 Broy./Diag. 0.10E+00   33.3     0.00000002       -12.2395300830 -7.23E-09
+    34 Broy./Diag. 0.10E+00   33.2     4.3183E-09       -12.2395300902 -7.18E-09
+    35 Broy./Diag. 0.10E+00   33.3     3.6704E-09       -12.2395300917 -1.50E-09
+    36 Broy./Diag. 0.10E+00   33.3     1.1279E-09       -12.2395300921 -3.93E-10
+    37 Broy./Diag. 0.10E+00   37.3     3.3003E-09       -12.2395300925 -3.78E-10
+    38 Broy./Diag. 0.10E+00   33.9     1.9048E-09       -12.2395300930 -5.09E-10
+    39 Broy./Diag. 0.10E+00   32.9     1.2597E-09       -12.2395300927  3.32E-10
+    40 Broy./Diag. 0.10E+00   33.7     3.8594E-10       -12.2395300930 -3.08E-10
 
   *** SCF run converged in    40 steps ***
 
@@ -3005,14 +2992,14 @@ SIRIUS 7.5.2, git hash: https://api.github.com/repos/electronic-structure/SIRIUS
 
   Overlap energy of the core charge distribution:               0.00636960272916
   Self energy of the core charge distribution:                -30.91005782344042
-  Core Hamiltonian energy:                                     10.89279825514047
-  Hartree energy:                                              12.08327781149946
-  Exchange-correlation energy:                                 -3.83947763519700
+  Core Hamiltonian energy:                                     10.89279825514142
+  Hartree energy:                                              12.08327781149957
+  Exchange-correlation energy:                                 -3.83947763519690
 
-  GAPW| Exc from hard and soft atomic rho1:                    -0.07453893942290
-  GAPW| local Eh = 1 center integrals:                         -0.39790136427216
+  GAPW| Exc from hard and soft atomic rho1:                    -0.07453893942292
+  GAPW| local Eh = 1 center integrals:                         -0.39790136427212
 
-  Total energy:                                               -12.23953009296338
+  Total energy:                                               -12.23953009296220
 
  !-----------------------------------------------------------------------------!
                      Mulliken Population Analysis
@@ -3058,7 +3045,7 @@ SIRIUS 7.5.2, git hash: https://api.github.com/repos/electronic-structure/SIRIUS
  Input: Filter threshold for sparse tensor operations                    1.0E-06
  Apply Hedin shift                                                             F
   
- Number of auxiliary Gaussian basis functions for χ, ε, W                     35
+ Number of auxiliary Gaussian basis functions for χ, ε, W                     27
  Cutoff radius for the truncated Coulomb operator in Σ^x:                 15.7 Å
  Cutoff radius for the truncated Coulomb operator in RI metric:            7.0 Å
  Regularization parameter of RI                                          1.0E-02
@@ -3069,17 +3056,17 @@ SIRIUS 7.5.2, git hash: https://api.github.com/repos/electronic-structure/SIRIUS
  Approximate the k-point extrapolation                                         F
  Radius of atomic orbitals                                                 8.0 Å
  Radius of RI functions                                                    5.0 Å
- Number of cells for 3c integrals                                           1833
- Number of cell pairs for 3c integrals                                    394303
+ Number of cells for 3c integrals                                           1817
+ Number of cell pairs for 3c integrals                                    384747
  
  Input: Available memory per MPI process                                480.0 GB
  Used memory per MPI process before GW run                                1.1 GB
- Memory of three-center integrals                                        74.6 GB
+ Memory of three-center integrals                                        56.2 GB
  Group size for tensor operations                                              1
- Number of cells ΔR                                                        13875
- Min. abs. eigenvalue of RI metric matrix M(k)                           2.1E-05
- Max. abs. eigenvalue of RI metric matrix M(k)                           4.5E+03
- Max. condition number of M(k)                                           9.5E+07
+ Number of cells ΔR                                                        13775
+ Min. abs. eigenvalue of RI metric matrix M(k)                           1.1E-03
+ Max. abs. eigenvalue of RI metric matrix M(k)                           3.2E+03
+ Max. condition number of M(k)                                           7.6E+05
  
  SCF direct band gap (eV)                                                   1.78
  Max. SCF eigval diff. (eV)                                               337.91

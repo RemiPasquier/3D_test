@@ -69,7 +69,7 @@
         MEMORY_PER_PROC              120
         EPS_FILTER               1E-9
 	KPOINTS_W                16 16 16
-	CUTOFF_RADIUS_RI             7
+	CUTOFF_RADIUS_RI             3
       &END
       &BANDSTRUCTURE_PATH
         NPOINTS 31

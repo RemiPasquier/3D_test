@@ -4,7 +4,7 @@
 #SBATCH -c 16
 #SBATCH -N 16
 #SBATCH -J "ZnO"
-#SBATCH --account=hpc-prf-metdyn
+#SBATCH --account=hpc-prf-coopfst
 #SBATCH -p largemem
 ##SBATCH -q express
 

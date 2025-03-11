@@ -45,7 +45,7 @@
       &END XC_FUNCTIONAL
    &END XC
     &KPOINTS
-      SCHEME MONKHORST-PACK 8 8 8
+      SCHEME MONKHORST-PACK 24 24 24
       PARALLEL_GROUP_SIZE   -1
     &END KPOINTS
    &END DFT
@@ -55,7 +55,7 @@
         NUM_TIME_FREQ_POINTS         5
         MEMORY_PER_PROC              120
         EPS_FILTER               1E-9
-	KPOINTS_W                8 8 8
+	KPOINTS_W                24 24 24
 	CUTOFF_RADIUS_RI             7
       &END
       &BANDSTRUCTURE_PATH
@@ -90,13 +90,13 @@
 
     &KIND C
       BASIS_SET ORB    aug-SZV-MOLOPT-GTH
-      BASIS_SET RI_AUX RI_aug-SZV-MOLOPT-GTH_N_RI_017_s_p_d_f_g_h_i_6_2_1_0_0_0_0_error_4.4e-02
+      BASIS_SET RI_AUX RI_aug-SZV-MOLOPT-GTH_N_RI_013_s_p_d_f_g_h_i_4_3_0_0_0_0_0_error_4.2e-02
       POTENTIAL        GTH-PBE
     &END KIND
 
     &COORD
 C  0 0 0
-Si 0.75 0.25 0.75
+Si 0.25 0.25 0.25
 SCALED T
     &END COORD
   &END SUBSYS

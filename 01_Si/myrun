@@ -16,4 +16,4 @@ module purge
 module load chem/CP2K/2024.1-foss-2023b-gcc-openmpi-openblas-libgrpp
 
 rm cp2k.out
-srun /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/cp2k/exe/local/cp2k.psmp *inp >> cp2k.out
+srun /pc2/groups/hpc-prf-metdyn/metdyn02_Remi/cp2k/newcp2k/cp2k/exe/local/cp2k.psmp *inp >> cp2k.out
